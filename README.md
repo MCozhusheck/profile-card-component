@@ -9,12 +9,12 @@ Project created with:
 * SASS
 
 ## Setup
-You can check live demo hosted at [Vercel](https://faq-accordion-card-main-neon-three.vercel.app/) or run it locally with commands:
+You can check live demo hosted at [Vercel](https://profile-card-component-gray.vercel.app/) or run it locally with commands:
 ```
 npm install
 npm run start
 ```
 
 ## Feedback
-You can leave comment at my [solution](https://www.frontendmentor.io/solutions/react-with-styled-components-DhWGhg7Rc).
+You can leave comment at my [solution](https://www.frontendmentor.io/solutions/html-with-sass-lgqFPa7hs).
 
