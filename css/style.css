@@ -1,0 +1,93 @@
+.card {
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  width: 32.5rem;
+  height: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem; }
+  .card__header {
+    background-image: url(../images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 25rem;
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0; }
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    height: 14rem; }
+  .card__image {
+    margin-top: -5rem;
+    border: 0.5rem solid white;
+    border-radius: 50%; }
+  .card__bio {
+    margin: auto; }
+  .card__name {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bold; }
+  .card__age {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #6a6f81;
+    margin: 0.5rem; }
+  .card__city {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #6a6f81;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem; }
+  .card__footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding-top: 2.5rem; }
+  .card__numbers {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem; }
+  .card__type {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #6a6f81;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    letter-spacing: 2px; }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg), linear-gradient(#19a2ae, #19a2ae);
+  background-position: left -78rem top -50rem, right -78rem bottom -55rem, 0;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif; }
+  @media only screen and (min-width: 1440px) {
+    body {
+      background-position: left -25rem top -50rem, right -20rem bottom -55rem, 0; } }

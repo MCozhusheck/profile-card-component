@@ -1,0 +1,90 @@
+.card {
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  width: 32.5rem;
+  height: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  &__header {
+    background-image: url(../images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 25rem;
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    height: 14rem;
+  }
+  &__image {
+    margin-top: -5rem;
+    border: 0.5rem solid white;
+    border-radius: 50%;
+  }
+  &__bio {
+    margin: auto;
+  }
+  &__name {
+    display: inline-block;
+    text-align: center;
+    font-size: $font-size-big;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bold;
+  }
+
+  &__age {
+    display: inline-block;
+    text-align: center;
+    font-size: $font-size-big;
+    font-family: "Kumbh Sans", sans-serif;
+    color: $color-primary-grey;
+    margin: 0.5rem;
+  }
+
+  &__city {
+    text-align: center;
+    font-size: $font-size-default;
+    font-family: "Kumbh Sans", sans-serif;
+    color: $color-primary-grey;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding-top: 2.5rem;
+  }
+  &__social {
+  }
+  &__numbers {
+    text-align: center;
+    font-size: $font-size-big;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  &__type {
+    text-align: center;
+    font-size: $font-size-small;
+    font-family: "Kumbh Sans", sans-serif;
+    color: $color-primary-grey;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+  }
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

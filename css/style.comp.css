@@ -1,0 +1,66 @@
+.card {
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px; }
+  .card__header {
+    background-image: url(../images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px 15px 0 0; }
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    background-color: white; }
+  .card__figure {
+    margin-top: -50px; }
+  .card__image {
+    border: 5px solid white;
+    border-radius: 50%; }
+  .card__name {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial; }
+  .card__age {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial;
+    color: gray;
+    margin: 5px; }
+  .card__city {
+    text-align: center;
+    font-family: Arial;
+    color: gray; }
+  .card__footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0 0 15px 15px; }
+  .card__numbers {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial; }
+  .card__type {
+    text-align: center;
+    font-family: Arial;
+    color: gray;
+    font-size: 0.8em; }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+body {
+  background: linear-gradient(black, white); }

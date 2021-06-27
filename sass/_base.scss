@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // Defines what 1rem is
+  font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  box-sizing: border-box;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg),
+    linear-gradient($color-primary-cyan, $color-primary-cyan);
+  background-position: left -78rem top -50rem, right -78rem bottom -55rem, 0;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  height: 100vh;
+  @media only screen and (min-width: $bp-desktop) {
+    background-position: left -25rem top -50rem, right -20rem bottom -55rem, 0;
+  }
+  font-family: "Kumbh Sans", sans-serif;
+}
